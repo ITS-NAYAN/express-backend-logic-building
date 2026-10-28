@@ -2,8 +2,6 @@ const express=require("express")
 
 const app=express()
 
-
-
 app.get('/calculate', (req, res) => {
     const a = Number(req.query.a);
     const b = Number(req.query.b);
